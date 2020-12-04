@@ -24,7 +24,7 @@ export default function Thankyou({history}){
       </div>
       <div class="cart-order-received">
         <div class="order-received-col">
-          <span class="">Order Prixe:</span>
+          <span class="">Order Price:</span>
           <span class="bold-text">“£20.00</span>
         </div>
         <div class="order-received-col received-col-mobile">
