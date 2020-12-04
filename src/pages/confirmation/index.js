@@ -32,7 +32,7 @@ export default function Confirmation(){
 
     return (
 
-     <Container>
+ 
 
   <div class='order'>
     <h2>Confirmation</h2>
@@ -46,7 +46,6 @@ export default function Confirmation(){
   </div>
 
  
-     </Container>
  
  
 
