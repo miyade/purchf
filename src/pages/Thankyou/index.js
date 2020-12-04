@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import { Container, Button, Form, FormGroup, Input } from 'reactstrap';
+import { Container} from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useLocation } from "react-router-dom";
 import './index.css';

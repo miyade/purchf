@@ -21,7 +21,10 @@ p, span{
 	font-size: 25px;
 }
 
-
+.chkbox{
+    left: 5%;
+    top: 90.4%;
+}
 
     .categories p {
         margin: 0;

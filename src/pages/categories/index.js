@@ -1,5 +1,5 @@
 import React, { useEffect, useState} from 'react';
-import {Alert, Label, Modal, ModalHeader, ModalBody, ModalFooter, Container, Button, Form, FormGroup, Input } from 'reactstrap';
+import {Alert, Label, Modal, ModalHeader, ModalBody, ModalFooter, Button, Form, FormGroup, Input } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import api from '../../services/api';
 import { useHistory } from "react-router-dom";
@@ -147,8 +147,8 @@ export default function Welcome(){
                         <Input id="date" type="text" value={phoneNumber} placeholder={'Phone Number.. '} onChange={(evt) => setPhoneNumber(evt.target.value)} />
                     </FormGroup>
             </Form>
-                <Input type="checkbox" checked={chkbox}  onChange={handleChangeChk}/>{' '}
-                Accept <a href="">Terms & Conditions</a>
+                <Input className="chkbox" type="checkbox" checked={chkbox}  onChange={handleChangeChk}/>{' '}
+                &nbsp;  Accept <a href="/">Terms & Conditions</a>
                 {
                 error ? (
                     <Alert className="event-validation" color="danger"> {messageHandler} </Alert>
